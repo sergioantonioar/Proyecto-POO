@@ -59,6 +59,8 @@ public class LibroForm extends JFrame {
         int x = (dimensionPantalla.width - getWidth()/2);
         int y = (dimensionPantalla.height - getHeight()/2);
         setLocation(x,y);
+        setLocationRelativeTo(null);
+        setResizable(false);
     }
 
     private void agregarLibro(){
