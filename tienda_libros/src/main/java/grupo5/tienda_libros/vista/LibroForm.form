@@ -15,7 +15,7 @@
         <properties>
           <enabled value="true"/>
           <font name="Arial" size="28" style="1"/>
-          <text value="Tienda de Libros"/>
+          <text value="Administrador de Librería"/>
         </properties>
       </component>
       <vspacer id="eeb9c">
