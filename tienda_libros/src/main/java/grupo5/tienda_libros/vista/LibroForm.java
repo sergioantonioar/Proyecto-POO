@@ -48,6 +48,8 @@ public class LibroForm extends JFrame {
     }
 
 
+
+
     //metodo para mostrar formulario
     private void iniciarForma(){
         setContentPane(panel);
@@ -59,6 +61,7 @@ public class LibroForm extends JFrame {
         int x = (dimensionPantalla.width - getWidth()/2);
         int y = (dimensionPantalla.height - getHeight()/2);
         setLocation(x,y);
+        setLocationRelativeTo(null);
     }
 
     private void agregarLibro(){
